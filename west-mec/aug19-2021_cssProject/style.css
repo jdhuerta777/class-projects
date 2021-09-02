@@ -1,0 +1,81 @@
+body {
+    /* width: 65%; */
+    margin: auto;
+    background-color: #9FD356;
+}
+
+.navigation {
+    color: white;
+    background-color: black;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.navigation li {
+    list-style-type: none;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.container {
+    /*F5F5EF F6BD60*/
+    background-color: #F5F5Ef;
+    padding: 20px;
+    border: 5px solid #7BB22E;
+    border-radius: 5px;
+
+    color: black;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    text-shadow: 4px 3px gray;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+}
+
+.biggerContainer {
+    column-count: 3;
+    column-gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.mainContainer {
+    /*F5F5EF F6BD60*/
+    background-color: #F5F5Ef;
+    padding: 20px;
+    padding-top: 65px;
+    border: 5px solid #7BB22E;
+    border-radius: 5px;
+    margin: auto;
+    width: 70%;
+    color: black;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
