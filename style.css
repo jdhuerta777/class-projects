@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.kick {
+    position: absolute;
+    top: 500px;
+    left: 625px;
+}
+
+@keyframes ball {
+    0% {
+        margin-top: 370px;
+    }
+    50% {
+        margin-top: -250px;
+    }
+    100% {
+        margin-top: 370px;
+        left: 2px;
+    }
+}
+
+.ball-container {
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+}
